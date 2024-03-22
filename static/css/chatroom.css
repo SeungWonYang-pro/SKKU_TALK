@@ -1,0 +1,179 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+.User {
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    margin: 5px;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+.container {
+    display: flex;
+    max-height: 350px;
+    height: 350px;
+    flex: 9;
+    flex-direction: column;
+    background-color: #BACEE0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-width: 2px 2px 0px;
+    border-color: lightgray;
+    border-style: solid;
+    border-collapse: collapse;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.container::-webkit-scrollbar {
+    display: none; 
+}
+.loginContainer{
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.buttonContainer{
+    flex: 1;
+    position: relative;
+    flex-direction: row-reverse;
+    background-color: white;
+}
+.inputContainer {
+    flex: 2;
+    position: relative;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+    border-end-start-radius: 5px;
+    border-end-end-radius: 5px;
+}
+
+.idInput{
+    min-width: 80%;
+    height: 80%;
+    text-align: left;
+    font-size:large;
+    margin: auto;
+    border-width: 1px;
+    border-radius: 5px;
+}
+input::placeholder{
+    text-align: center;
+}
+
+
+.inputTxt {
+    position: absolute;
+    width: 99%;
+    height: 97%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.sendButton {
+    
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    background-color: #FFE402;
+    font-size: large;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.enterButton
+{
+    background-color: #FFE402;
+    font-size: large;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin:auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.containerRight {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px;
+    width: 400px;
+    height: auto;
+}
+.wrapperLeft{
+    display: flex;
+    flex-direction: column;
+}
+.containerLeft {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    width: 400px;
+    height: auto;
+    flex: 9;
+}
+.containerLeftName{
+    flex: 1;
+    width: 400px;
+}
+.leftName{
+    margin-left: 19px;
+}
+
+
+
+.rightTalk {
+    background-color: #FFE402;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 20px;
+    padding: 7px;
+    max-width: 250px;
+    font-size: 15px;
+    word-break:break-all;
+    font-weight: 500;
+}
+
+.leftTalk {
+    background-color: white;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    margin-right: 8px;
+    max-width: 250px;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    word-break:break-all;
+}
+
+.timeDiv {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+#backBtn, #chrBtn{
+    flex:1;
+
+    background-color: #4CAF50;
+    margin: 15px;
+}
+
+.btnCont{
+    flex:1;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+}

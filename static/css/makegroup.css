@@ -1,0 +1,111 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+}
+.titleCont{
+    display: flex;
+    flex:1;
+    align-items: center;
+    width: 100%;
+    clear: both;
+}
+.friendCont{
+    flex:4;
+    clear: both;
+    display: relative;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border : 2px solid #4CAF50;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+.btnCont{
+    flex:1;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.title{
+    z-index: 1;
+    text-align: center;
+    color: #4CAF50;
+    flex:1;
+}
+.friend{
+    margin-left: 20px;
+    color: black;
+    margin-top: 5px;        
+}
+.friendHeader
+{   
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.stChBtn{
+    float:right;
+    margin-right: 20px;
+    background-color: #4CAF50;
+}
+
+.stGrChBtn{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: #4CAF50;
+}
+
+
+#addFBtn, #chrBtn{
+    flex:1;
+
+    background-color: #4CAF50;
+    margin: 15px;
+}
+.friendCont::-webkit-scrollbar {
+    display: none; 
+}
+
+.newMsgCont{
+    z-index: 50;
+    text-align: left;
+    align-items: center;
+    clear: both;
+    height: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: whitesmoke;
+    flex: 1;
+}
+.displayHidden{
+    display: none;
+}
+.title{
+    z-index: 1;
+    text-align: center;
+    color: #4CAF50;
+    flex:1;
+}
+.chatTitle{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.chatMsg{
+    margin-top: 5px;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+body{
+    display: relative;
+}
